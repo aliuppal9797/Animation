@@ -23,6 +23,8 @@ public class ImageAnimation extends AppCompatActivity {
 
 //        imageView.animate().translationYBy(-250).setDuration(2000);
 
-        imageView.animate().rotation(180);
+//        imageView.animate().rotation(180);
+
+        imageView.animate().scaleX(0.5f).scaleY(0.5f).rotation(720).setDuration(3000).translationYBy(-300);
     }
 }
